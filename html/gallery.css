@@ -1,0 +1,70 @@
+body{
+    background-color: #89837C;
+}
+
+.record-images{
+    display: flex;
+    /* border-top: 1px solid #000; */
+    border-bottom: 1px solid #000;
+}
+
+.record-image{
+    flex: 1;
+    padding: 1.5%;
+    border-left: 1px solid #000;
+    cursor: pointer;
+}
+
+.record h2,
+.record h3,
+.record h4{
+    text-align: center;
+    color: #000;
+}
+
+.record h2{
+    font-weight: bold;
+}
+
+.modal-images{
+    left: 0;
+    top: 0;
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, .5);
+    z-index: 999;
+    display: none;
+}
+
+.modal-image{
+    text-align: center;
+}
+
+.modal-image img{
+    height: 80vh;
+    margin-top: 10vh;
+}
+
+#modal-pre,#modal-next{
+    height: 100%;
+    position: absolute;
+    width: 40px;
+    outline: none;
+    border: 0;
+    background-color: rgba(255, 255, 255, .2);
+    top: 0;
+}
+
+#modal-pre:hover
+,#modal-next:hover{
+    background-color: rgba(255, 255, 255, .5);
+}
+
+#modal-pre{
+    left: 0;
+}
+
+#modal-next{
+    right: 0;
+}
