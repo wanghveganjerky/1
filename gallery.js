@@ -18,9 +18,9 @@ $.ajax({
 
             const div = $(`
                 <div class="record">
-                    <h2>${title}</h2>
-                    <h4> ${author} ; ${medium&&medium.length>0?medium[0]:'None'}</h4>
-                    <div class="record-images"></div>
+                   
+                    <div class="record-images"> <h2>${title} ; ${author} ; ${medium&&medium.length>0?medium[0]:'None'}</h2>
+                  
                 </div>
             `);
 
