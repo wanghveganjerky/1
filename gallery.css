@@ -1,5 +1,11 @@
+@import url('https://fonts.googleapis.com/css2?family=Crimson+Text&family=EB+Garamond&display=swap');
+
 body{
     background-color: white;
+    margin-left: 100px;
+    margin-right: 100px;
+    margin-top: 30px;
+    font-family: 'Crimson Text', serif;
 }
 
 .record-images{

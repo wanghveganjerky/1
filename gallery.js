@@ -19,7 +19,7 @@ $.ajax({
             const div = $(`
                 <div class="record">
                     <h2>${title}</h2>
-                    <h4>${author} By ${medium&&medium.length>0?medium[0]:'None'}</h3>
+                    <h4>Artist: ${author} ; Medium: ${medium&&medium.length>0?medium[0]:'None'}</h4>
                     <div class="record-images"></div>
                 </div>
             `);
@@ -35,6 +35,14 @@ $.ajax({
         $('.record-image').click(imageClick)
     }
 })
+
+
+
+
+
+
+
+
 
 function imageClick(){
     imageIndex=$(this).attr('data-index');
