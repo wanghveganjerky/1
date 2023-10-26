@@ -19,7 +19,7 @@ $.ajax({
             const div = $(`
                 <div class="record">
                     <h2>${title}</h2>
-                    <h4> Author: ${author}; Meidum: ${medium&&medium.length>0?medium[0]:'None'}</h4>
+                    <h4> Author: ${author}; Medium: ${medium&&medium.length>0?medium[0]:'None'}</h4>
                     <div class="record-images"></div>
                 </div>
             `);
